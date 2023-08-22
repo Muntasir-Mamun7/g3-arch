@@ -1,0 +1,298 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    
+    
+}
+
+
+/* Header and Introduction of the website */
+
+.head-and-intro {
+    background-color:rgba(255, 144, 14, 0.10);
+    ;
+    
+}
+
+/* Logo and Header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 228px;
+    padding-right: 228px;
+    
+
+}
+.logo {
+    font-size: 45px;
+    font-weight: 700;
+}
+.nav ul {
+    display: flex;
+}
+.nav ul li {
+    list-style: none;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    margin-right: 20px;
+    font-weight: 500;
+
+}
+
+/* Introduction */
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+.title {
+    font-size: 64px;
+    margin-top: 0px;
+
+}
+.text-description {
+    font-size: 16px;
+    line-height: 26px;
+}
+.intro-button {
+    
+}
+.explore-more-button {
+    background-color:#FF900E ;
+    width: 180px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    color:#FFF;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 70px;
+    margin-top: 53px ;
+}
+
+/* Introduction Banner  */
+
+.intro-img {
+    margin-top: 70px;
+    margin-bottom: 45px;
+    height: 700px;
+    width: 1440px;
+    margin-top: 50px;
+}
+
+/* Rest of content area  */
+.rest-of-content {
+    padding-left: 228px;
+    padding-right: 228px;
+    align-items: center;
+
+}
+/* Features */
+.features {
+    display: flex;
+    grid-template-columns: 1.5fr 1fr;
+    justify-content: center;
+    padding-left: 228px;
+    padding-right: 228px;
+    align-items: center;
+}
+
+/* feature-images  */
+
+.feature-images .image {
+    height: 342px;
+    width: 342px;
+}
+.feature-images {
+    margin-top: 85px;
+    display: flex;
+    width: 708px;
+    height: 708px;
+    flex-wrap: wrap;
+    gap: 24px;
+    
+}
+.feature-img-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 76px;
+}
+
+.feature-img-text .title {
+    font-size: 45px;
+    font-weight: normal;
+    color:#727272 ;
+
+}
+.feature-img-text .title .of-our {
+    font-size: 65px;
+    font-weight: 700;
+    color:#131313 ;
+
+}
+.feature-img-text .title .orange-color-text {
+    font-size: 65px;
+    font-weight: 700;
+    color:#FF900E ;
+
+}
+
+/* Feature Article and text */
+
+
+.feature-text {
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    justify-content: center;
+
+    padding-left: 228px;
+    margin-left: -680px;
+}
+
+.article-1 .title{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px ;
+    font-size: 45px;
+}
+.article-1 .text-description {
+    width: 586px;
+}
+
+
+/* Article-2 --Article-5 */
+
+.article-2 {
+    margin-left: 33px;
+    width: 514px;
+    margin-top: 80px;
+}
+
+
+/* Experience button  */
+.experience-btn button {
+    background-color: #FF900E;
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 54px;
+    
+
+}
+
+.experience-btn button .experience-text {
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 48px;
+
+}
+
+/* Some Fact Section  */
+.icons {
+    width: 45px;
+    height: 45px;
+}
+
+.some-facts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+
+    
+}
+.some-fact-text {
+    margin-left: -820px;
+}
+.some-fact-text .title {
+    font-size: 45px;
+
+}
+.some-fact-text .text-description {
+    width: 586px;
+    
+}
+.achivements {
+    display: flex;
+    justify-content: center;
+
+}
+
+.achivement {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    height: 241px;
+    width: 241px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 124px;
+
+
+}
+
+.last-achivement {
+    margin-right: 0px;
+}
+
+.achivement h1 {
+    font-size: 45px;
+    margin: 0px;
+    font-weight: 600;
+}
+.achivement p {
+    margin: 0px;
+    font-size: 20px;
+}
+
+
+/* Sponsores */
+.sponsores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponsores-logo {
+    display: flex;
+    gap: 10%;
+}
+
+
+/* footer  */
+footer {
+    display: flex;
+    justify-content: center;
+}
