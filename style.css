@@ -19,6 +19,9 @@ body {
 }
 
 /* Logo and Header */
+.topnav {
+    display: none;
+}
 
 .header{
     display: flex;
