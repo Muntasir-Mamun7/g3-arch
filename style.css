@@ -54,6 +54,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 45px;
 }
 .intro-text {
     display: flex;
@@ -96,6 +97,7 @@ body {
     height: 700px;
     width: 1440px;
     margin-top: 50px;
+    
 }
 
 /* Rest of content area  */
@@ -123,10 +125,10 @@ body {
 }
 .feature-images {
     margin-top: 85px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     width: 708px;
     height: 708px;
-    flex-wrap: wrap;
     gap: 24px;
     
 }
@@ -233,9 +235,10 @@ body {
 }
 .some-fact-text {
     margin-left: -820px;
+    margin-top: 130px;
 }
 .some-fact-text .title {
-    font-size: 45px;
+    font-size: 2rem;
 
 }
 .some-fact-text .text-description {
@@ -245,6 +248,7 @@ body {
 .achivements {
     display: flex;
     justify-content: center;
+    margin-left: -0px;
 
 }
 
@@ -285,9 +289,27 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.sponsores-text .title h1{
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+.sponsores-text .text-description p{
+    font-size:16px;
+    display: flex;
+    justify-content: center;
+    width: 542px;
+    align-items: center;
+    text-align: center;
+    margin-left: 140px;
+    
+}
 .sponsores-logo {
     display: flex;
     gap: 10%;
+    justify-content: center;
+
 }
 
 
