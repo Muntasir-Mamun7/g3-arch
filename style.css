@@ -299,10 +299,9 @@ body {
     font-size:16px;
     display: flex;
     justify-content: center;
-    width: 542px;
+    width: auto;
     align-items: center;
     text-align: center;
-    margin-left: 140px;
     
 }
 .sponsores-logo {

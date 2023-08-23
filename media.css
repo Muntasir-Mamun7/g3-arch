@@ -1,0 +1,190 @@
+@media only screen and (max-width:600px)  {
+
+    /* Header and Nav  */
+    .header {
+        margin: 0px;
+        padding: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .logo p{
+        font-size: 2rem;
+
+    }
+    nav {
+        display: none;
+    }
+
+
+
+
+/* Introduction part  */
+
+
+        .introduction {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        .intro-text .title {
+            font-size: 2rem;
+        }
+        .intro-text .text-description {
+            font-size: 1rem;
+        }
+        .banner-image {
+            width: 100%;
+        }
+
+    /* Rest of the coontent 
+     */
+     .rest-of-content {
+        padding-left: 5%;
+        padding-right: 5%;
+     }
+    /* Feature Image and Feature Text Section  */
+
+    .features {
+        display: block;
+        padding: 0px;
+
+    }
+    .feature-images {
+        display: flex;
+        flex-direction:column ;
+        height: 100%;
+        width: 100%;
+    }
+    .feature-img-text {
+        padding: 0px;
+        margin: 0px;
+    }
+
+  /* Feature-text and button 
+   */
+   .feature-text {
+    display: block;
+    padding: 5%;
+    margin: 5%;
+   }
+   .articles {
+    width: 100%;
+   }
+   .articles .text-description{width: 1005;
+    width: 100%;
+   }
+   .article-1 {
+    width: 100%;
+
+   }
+   .article-2 {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+   }
+   .experience-btn button{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+   }
+
+
+   /* Some Facts Section  */
+
+   .some-facts {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+
+   }
+   .some-fact-text {
+    width: 100%;
+    margin: 0px;
+
+   }
+   .some-fact-text .title{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-size: 2rem;
+   }
+   .some-fact-text .text-description  {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+   }
+
+ .achivements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+ }
+ .achivement {
+    margin: 0px;
+ }
+
+/* Sponsores Section  */
+.sponsores {
+    width: 100%;
+    height: 100%;
+}
+.sponsores-text {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.sponsores-text .title {
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.sponsores-text .text-description{
+    width: 100%;
+}
+.sponsores-text .text-description{
+    width: 100%;
+    margin: 0px;
+    
+}
+.sponsore {
+    height: 30px;
+    width: 90px;
+    align-items: center;
+
+}
+
+.sponsores-logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    height: 100%;
+
+}
+.sponsore-img {
+    height: 30px;
+    width: 90px;
+    align-items: center;
+
+}
+/* Footer Sectopn  */
+
+footer {
+    background-color:  #FFF4E7;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+    
+    
+    
+    
+}
+
+
